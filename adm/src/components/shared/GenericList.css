@@ -1,0 +1,50 @@
+.generic-list {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.list-title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header {
+  background: #34495e;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table-row {
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.table-row:hover {
+  background: #f8f9fa;
+}
+
+.table-cell {
+  padding: 12px 15px;
+  color: #2c3e50;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #3498db;
+}
