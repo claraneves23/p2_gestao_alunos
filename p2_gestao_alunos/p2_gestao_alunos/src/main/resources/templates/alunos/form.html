@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h2>Novo Aluno</h2>
+
+<form th:action="@{/alunos}" th:object="${aluno}" method="post">
+
+    Nome: <input type="text" th:field="*{nome}" /><br><br>
+    Email: <input type="email" th:field="*{email}" /><br><br>
+    Matrícula: <input type="text" th:field="*{matricula}" /><br><br>
+
+    Curso:
+    <select th:field="*{curso}">
+        <option th:each="curso : ${cursos}"
+                th:value="${curso.id}"
+                th:text="${curso.nome}">
+        </option>
+    </select>
+    <br><br>
+
+    <button type="submit">Salvar</button>
+
+</form>
+
+</body>
+</html>
