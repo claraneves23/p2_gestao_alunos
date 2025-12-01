@@ -1,6 +1,6 @@
 // src/components/cursos/CursoList.js
 import React from 'react';
-import GenericList from '../shared/GenericList';
+import List from '../shared/List';
 import { cursoService } from '../../services/api';
 
 const CursoList = () => {
@@ -11,7 +11,7 @@ const CursoList = () => {
   ];
 
   return (
-    <GenericList
+    <List
       title="Lista de Cursos"
       columns={columns}
       dataService={cursoService.listar}

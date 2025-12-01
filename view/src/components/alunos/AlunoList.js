@@ -1,6 +1,6 @@
 // src/components/alunos/AlunoList.js
 import React from 'react';
-import GenericList from '../shared/GenericList';
+import List from '../shared/List';
 import { alunoService } from '../../services/api';
 
 const AlunoList = () => {
@@ -12,7 +12,7 @@ const AlunoList = () => {
   ];
 
   return (
-    <GenericList
+    <List
       title="Lista de Alunos"
       columns={columns}
       dataService={alunoService.listar}

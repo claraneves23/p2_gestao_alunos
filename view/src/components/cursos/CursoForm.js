@@ -1,6 +1,6 @@
 // src/components/cursos/CursoForm.js - VERSÃO CORRETA
 import React, { useState } from 'react';
-import GenericForm from '../shared/GenericForm';
+import Form from '../shared/Form';
 import { cursoService } from '../../services/api';
 
 const CursoForm = () => {
@@ -41,7 +41,7 @@ const CursoForm = () => {
   };
 
   return (
-    <GenericForm
+    <Form
       title="Cadastrar Curso"
       fieldsConfig={cursoFields}
       onSubmit={handleSubmit}

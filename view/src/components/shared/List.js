@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import './GenericList.css';
+import './List.css';
 
-const GenericList = ({ 
+const List = ({ 
   title, 
   columns, 
   dataService,
@@ -90,4 +90,4 @@ const GenericList = ({
   );
 };
 
-export default GenericList;
+export default List;

@@ -1,6 +1,6 @@
 // src/components/alunos/AlunoForm.js - JÁ CORRETO
 import React, { useState } from 'react';
-import GenericForm from '../shared/GenericForm';
+import Form from '../shared/Form';
 import { alunoService, cursoService } from '../../services/api';
 
 const AlunoForm = () => {
@@ -48,7 +48,7 @@ const AlunoForm = () => {
   };
 
   return (
-    <GenericForm
+    <Form
       title="Cadastrar Aluno"
       fieldsConfig={alunoFields}
       onSubmit={handleSubmit}

@@ -1,8 +1,7 @@
-// src/components/shared/GenericForm.js
 import React, { useState, useEffect } from 'react';
-import './GenericForm.css';
+import './Form.css';
 
-const GenericForm = ({ 
+const Form = ({ 
   title, 
   fieldsConfig, 
   onSubmit,
@@ -108,4 +107,4 @@ const GenericForm = ({
   );
 };
 
-export default GenericForm;
+export default Form;
