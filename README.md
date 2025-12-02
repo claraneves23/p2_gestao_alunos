@@ -1,3 +1,5 @@
+https://youtu.be/0WUSh0Sr-Qs
+
 # p2_gestao_alunos
 
 Sistema de Gestão de Alunos — Projeto Java Spring Boot (com extra em React)
